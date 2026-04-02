@@ -1,0 +1,956 @@
+body {
+    background-image: linear-gradient(43deg, rgb(159, 215, 212), rgb(125, 165, 213));
+}
+
+.dark-mode {
+    background-image: none;
+    background-color: black;
+}
+
+.switch {
+    background-image: linear-gradient(43deg, rgb(125, 165, 213), rgb(159, 215, 212));
+}
+
+.button1 {
+    background-color: rgb(177, 39, 39);
+    color: rgb(174, 165, 165);
+    padding: 20px;
+    border-radius: 100%;
+    border: 0px;
+    font-weight: bolder;
+    font-size: 30px;
+    transition-duration: 0.05s;
+    width: 200px;
+    height: 190px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
+}
+
+.button1:active {
+    background-color: rgb(177, 39, 39);
+    color: rgb(174, 165, 165);
+    width: 210px;
+    height: 200px;
+    font-size: 32px;
+}
+
+.button2 {
+    background-color: rgb(235, 218, 138);
+    color: rgb(48, 44, 44);
+    border-radius: 100%;
+    border-width: 10px;
+    border-color: rgb(245, 231, 169);
+    font-weight: bolder;
+    font-size: 10px;
+    transition-duration: 0.1s;
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(350%, -40%);
+}
+
+.button2:hover {
+    font-size: 10.2px;
+    width: 152px;
+    height: 142px;
+    transform: translate(345%, -40%);
+}
+
+.button2:active {
+    width: 150px;
+    height: 140px;
+    background-color: rgb(227, 208, 126);
+    color: rgb(48, 44, 44);
+    border-color: rgb(230, 215, 150);
+    transform: translate(350%, -40%);
+}
+
+.button3 {
+    background-color: rgb(202, 85, 187);
+    color: rgb(225, 213, 213);
+    border-radius: 23%;
+    font-weight: bolder;
+    font-size: 23px;
+    border-width: 0;
+    transition-duration: 0.1s;
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(150%, -300%);
+    
+}
+
+.button3:hover {
+    font-size: 23.2px;
+    width: 152px;
+    height: 142px;
+    background-color: rgb(230, 101, 212);
+    color: rgb(249, 243, 243);
+    transform: translate(148%, -297%);
+}
+
+.button3:active {
+    width: 150px;
+    height: 140px;
+    background-color: rgb(190, 74, 175);
+    color: rgb(203, 188, 188);
+    transform: translate(150%, -300%);
+}
+
+.button4 {
+    background-color: rgb(219, 98, 98);
+    color: rgb(0, 0, 0);
+    border-radius: 2%;
+    font-weight: light;
+    font-size: 23px;
+    transition-duration: 0.1s;
+    width: 120px;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-350%, -350%);
+}
+
+.button4:hover {
+    font-size: 23.2px;
+    width: 122px;
+    height: 112px;
+    background-color: rgb(245, 123, 138);
+    color: rgb(0, 0, 0);
+    transform: translate(-344%, -345%);
+}
+
+.button4:active {
+    width: 120px;
+    height: 110px;
+    background-color: rgb(193, 79, 79);
+    color: rgb(0, 0, 0);
+    transform: translate(-350%, -350%);
+}
+
+.button5 {
+    background-color: rgb(50, 63, 209);
+    color: rgb(241, 234, 234);
+    border-radius: 50%;
+    border-width: 0;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 23px;
+    transition-duration: 0.1s;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(570%, -400%);
+}
+
+.button5:hover {
+    font-size: 23.2px;
+    width: 86px;
+    height: 56px;
+    background-color: rgb(246, 237, 238);
+    color: rgb(49, 52, 224);
+    transform: translate(528%, -365%);
+}
+
+.button5:active {
+    width: 80px;
+    height: 50px;
+    background-color: rgb(66, 37, 174);
+    color: rgb(206, 195, 195);
+    transform: translate(570%, -400%);
+}
+
+.button6 {
+    background-color: rgb(233, 234, 240);
+    color: rgb(45, 42, 42);
+    border-radius: 50%;
+    border-width: 0;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-630%, -70%);
+}
+
+.button6:hover {
+    font-size: 23.2px;
+    width: 110px;
+    height: 100px;
+    background-color: rgb(233, 234, 240);
+    color: rgb(45, 42, 42);
+    transform: translate(-575%, -70%);
+    transition-duration: 0.05s;
+}
+
+.button6:active {
+    width: 100px;
+    height: 90px;
+    font-size: 27px;
+    background-color: rgb(245, 197, 197);
+    color: rgb(68, 46, 46);
+    transform: translate(-630%, -70%);
+}
+
+.button7 {
+    background-color: rgb(52, 204, 54);
+    color: rgb(45, 42, 42);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(155, 147, 147);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-200%, 300%);
+}
+
+.button7:hover {
+    font-size: 28px;
+    width: 105px;
+    height: 105px;
+    background-color: rgb(63, 243, 66);
+    color: rgb(45, 42, 42);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-193%, 283%);
+    transition-duration: 0.1s;
+}
+
+.button7:active {
+    width: 100px;
+    height: 100px;
+    font-size: 27px;
+    background-color: rgb(37, 157, 39);
+    color: rgb(45, 42, 42);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-200%, 300%);
+}
+
+.button8 {
+    background-color: rgb(155, 161, 155);
+    color: rgb(141, 135, 135);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(155, 147, 147);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-200%, -430%);
+}
+
+.button8:hover {
+    font-size: 27px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 161, 155);
+    color: rgb(141, 135, 135);
+    transition-duration: 0.1s;
+    transform: translate(-200%, -430%);
+}
+
+.button8:active {
+    width: 105px;
+    height: 105px;
+    font-size: 27px;
+    background-color: rgb(202, 63, 42);
+    color: rgb(231, 216, 216);
+    transform: translate(-193%, -413%);
+}
+
+.button9 {
+    background-color: rgb(141, 204, 222);
+    color: rgb(0, 0, 0);
+    border-width: 3px;
+    border-style: dotted;
+    border-color:rgb(255, 255, 255);
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-580%, 100%);
+}
+
+.button9:hover {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: rgb(141, 204, 222);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.2s;
+    transform: translate(-473%, 25%);
+}
+
+.button9:active {
+    width: 80px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 0%;
+    background-color: rgb(107, 168, 185);
+    color: rgb(0, 0, 0);
+    transform: translate(-580%, 100%);
+}
+
+.button10 {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-width: 3px;
+    border-style: dashed;
+    border-radius: 200%;
+    border-color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    transition-duration: 0.05s;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(50%, -480%);
+}
+
+.button10:hover {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    transition-duration: 0.2s;
+    transform: translate(40%, -439%);
+}
+
+.button10:active {
+    width: 90px;
+    height: 90px;
+    font-size: 20px;
+    border-radius: 0%;
+    background-color: rgb(107, 168, 185);
+    color: rgb(0, 0, 0);
+    transform: translate(50%, -480%);
+}
+
+.button11 {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-330%, 100%);
+}
+
+.button11:hover {
+    font-size: 19px;
+    width: 105px;
+    height: 105px;
+    border-style: dashed;
+    transition-duration: 0.1s;
+    transform: translate(-317%, 93%);
+}
+
+.button11:active {
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    transform: translate(-330%, 100%);
+}
+
+.button12 {
+    background-image: linear-gradient(43deg, rgb(228, 214, 91), rgb(66, 199, 66));
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(155, 147, 147);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    transition-duration: 0.2s;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-800%, -300%);
+}
+
+.button12:hover {
+    font-size: 10px;
+    width: 70px;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.1s;
+    transform: translate(-800%, -300%);
+}
+
+.button12:active {
+    width: 75px;
+    height: 75px;
+    font-size: 11px;
+    background-image: linear-gradient(43deg, rgb(91, 228, 102), rgb(66, 179, 199));
+    color: rgb(0, 0, 0);
+    transform: translate(-750%, -280%);
+}
+
+.button13 {
+    background-color: rgb(216, 128, 47);
+    color: rgb(184, 93, 19);
+    border-radius: 50%;
+    border-width: 0px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 27px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(400%, 140%);
+}
+
+.button13:hover {
+    font-size: 27px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 128, 47);
+    color: rgb(250, 195, 92);
+    transition-duration: 0.1s;
+    transform: translate(400%, 140%);
+}
+
+.button13:active {
+    width: 105px;
+    height: 105px;
+    font-size: 27px;
+    background-color: rgb(197, 114, 36);
+    color: rgb(231, 174, 68);
+    transform: translate(379%, 132%);
+}
+
+.button14 {
+    background-color: rgb(223, 47, 41);
+    color: rgb(247, 243, 243);
+    border-radius: 4%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(155, 147, 147);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    transition-duration: 0.1s;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(300%, 210%);
+}
+
+.button14:hover {
+    width: 84px;
+    height: 84px;
+    background-color: rgb(231, 228, 56);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.1s;
+    transform: translate(284%, 190%);
+}
+
+.button14:active {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(42, 53, 202);
+    color: rgb(255, 255, 255);
+    transform: translate(300%, 210%);
+}
+
+.button15 {
+    background-color: rgb(18, 18, 19);
+    color: rgb(240, 232, 232);
+    border-radius: 50%;
+    border-width: 0px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 8px;
+    transition-duration: 0.1s;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-40%, 180%);
+}
+
+.button15:hover {
+    font-size: 9px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(18, 18, 19);
+    color: rgb(223, 18, 18);
+    transition-duration: 0.1s;
+    transform: translate(-40%, 150%);}
+
+.button15:active {
+    width: 105px;
+    height: 105px;
+    font-size: 13px;
+    background-color: rgb(18, 18, 19);
+    color: rgb(223, 18, 18);
+    transform: translate(-40%, 100%);
+}
+
+.button16 {
+    background-color: rgb(218, 128, 180);
+    color: rgb(226, 151, 195);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: inset;
+    border-color: rgb(226, 151, 195);
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 22px;
+    transition-duration: 0.1s;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(90%, 170%);
+}
+
+.button16:hover {
+    font-size: 22px;
+    width: 95px;
+    height: 95px;
+    background-color: rgb(230, 110, 180);
+    color: rgb(255, 223, 242);
+    transition-duration: 0.1s;
+    transform: translate(84%, 160%);
+}
+
+.button16:active {
+    width: 90px;
+    height: 90px;
+    font-size: 22px;
+    background-color: rgb(199, 65, 143);
+    color: rgb(235, 136, 195);
+    transform: translate(90%, 170%);
+}
+
+.button17 {
+    background-color: rgb(49, 160, 49);
+    color: rgb(105, 219, 115);
+    border-radius: 9%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(42, 110, 73);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    transition-duration: 0.1s;
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-300%, 140%);
+}
+
+.button17:hover {
+    font-size: 10px;
+    width: 60px;
+    height: 100px;
+    background-color: rgb(62, 182, 62);
+    color: rgb(133, 248, 143);
+    transition-duration: 0.1s;
+    transform: translate(-300%, 140%);
+}
+
+.button17:active {
+    width: 60px;
+    height: 100px;
+    font-size: 10px;
+    background-color: rgb(108, 206, 84);
+    color: rgb(190, 214, 204);
+    transform: translate(-300%, 140%);
+}
+
+.button18 {
+    background-color: rgb(123, 207, 240);
+    color: rgb(221, 237, 243);
+    border-radius: 50%;
+    border-width: 7px;
+    border-style: double;
+    border-color:rgb(60, 50, 194);
+    font-family: serif;
+    font-weight: regular;
+    font-size: 18px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-440%, -130%);
+}
+
+.button18:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(76, 86, 233);
+    color: rgb(232, 230, 240);
+    transition-duration: 0.1s;
+    transform: translate(-440%, -130%);
+}
+
+.button18:active {
+    width: 105px;
+    height: 105px;
+    font-size: 20px;
+    background-color: rgb(120, 44, 219);
+    color: rgb(231, 216, 216);
+    transform: translate(-423%, -130%);
+}
+
+.button19 {
+    background-color: rgb(235, 224, 74);
+    color: rgb(214, 143, 36);
+    border-radius: 25%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(155, 147, 147);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(300%, 0%);
+}
+
+.button19:hover {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(248, 238, 95);
+    color: rgb(249, 255, 198);
+    transition-duration: 0.1s;
+    transform: translate(300%, 0%);
+}
+
+.button19:active {
+    width: 105px;
+    height: 105px;
+    font-size: 21px;
+    background-color: rgb(190, 165, 52);
+    color: rgb(153, 116, 36);
+    transform: translate(284%, -1%);
+}
+
+.button20 {
+    background-color: rgb(51, 133, 228);
+    color: rgb(67, 87, 97);
+    border-radius: 0%;
+    border-width: 0px;
+    border-style: solid;
+    border-color:rgb(40, 57, 212);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 4px;
+    transition-duration: 0.1s;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-600%, -500%);
+}
+
+.button20:hover {
+    font-size: 4px;
+    width: 40px;
+    height: 40px;
+    border-width: 2px;
+    transition-duration: 0.1s;
+    transform: translate(-600%, -500%);
+}
+
+.button20:active {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(155, 161, 155);
+    color: rgb(141, 135, 135);
+    border-color:rgb(141, 135, 135);
+    transform: translate(-540%, -450%);
+}
+
+.button21 {
+    background-color: rgb(148, 72, 209);
+    color: rgb(213, 225, 235);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: mixed;
+    border-color:rgb(95, 35, 145);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(200%, -200%);
+}
+
+.button21:hover {
+    font-size: 17px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(181, 91, 233);
+    color: rgb(213, 225, 235);
+    transition-duration: 0.1s;
+    transform: translate(200%, -200%);
+}
+
+.button21:active {
+    width: 105px;
+    height: 105px;
+    font-size: 18px;
+    background-color: rgb(122, 58, 175);
+    color: rgb(216, 194, 194);
+    transform: translate(190%, -190%);
+}
+
+.button22 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border-width: 0px;
+    font-family: sans-serif;
+    font-weight: regular;
+    font-size: 18px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-40%, -300%);
+}
+
+.button22:hover {
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: 0.1s;
+    transform: translate(-40%, -300%);
+}
+
+.button22:active {
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(202, 202, 202);
+    color: rgb(0, 0, 0);
+    transform: translate(-40%, -300%);
+}
+
+.button23 {
+    background-color: rgb(74, 97, 199);
+    color: rgb(85, 163, 228);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(27, 55, 182);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    transition-duration: 0.1s;
+    width: 60px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(250%, 0%);
+}
+
+.button23:hover {
+    font-size: 27px;
+    width: 100px;
+    height: 100px;
+    transition-duration: 0.1s;
+    transform: translate(135%, 0%);
+}
+
+.button23:active {
+    width: 105px;
+    height: 105px;
+    font-size: 27px;
+    background-color: rgb(22, 66, 189);
+    color: rgb(231, 216, 216);
+    transform: translate(124%, -3%);
+}
+
+.button24 {
+    background-color: rgb(221, 42, 42);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:rgb(180, 0, 0);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 13px;
+    transition-duration: 0.1s;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-230%, -19%);
+}
+
+.button24:hover {
+    font-size: 13px;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 33, 89);
+    color: rgb(255, 255, 255);
+    border-color:rgb(107, 0, 18);
+    transition-duration: 0.1s;
+    transform: translate(-230%, -19%);
+}
+
+.button24:active {
+    font-size: 13px;
+    width: 105px;
+    height: 55px;
+    background-color: rgb(133, 13, 39);
+    color: rgb(231, 216, 216);
+    transform: translate(-222%, -19%);
+}
+
+.button25 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50%;
+    border-width: 3px;
+    border-color:rgba(122, 122, 122, 0.507);
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-style: solid;
+    font-size:  4px;
+    border-width: .5px;
+    transition-duration: 0.1s;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-300%, 800%);
+}
+
+.button25:hover {
+    width: 30px;
+    height: 30px;
+    transition-duration: 0.3s;
+    transform: translate(-300%, 800%);
+}
+
+.button25:active {
+    width: 40px;
+    height: 40px;
+    font-size: 6px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(35, 110, 250);
+    border-color: rgb(35, 164, 250);
+    transform: translate(-235%, 590%);
+}
+
+__________________________________________________
+
+dialog {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 2rem;
+  width: 300px;
+  text-align: center;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
